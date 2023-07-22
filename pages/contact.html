@@ -20,8 +20,8 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <!--CSS-->
-    <link rel="stylesheet" href="../css/style.css" />
+    <!--Sass/CSS-->
+    <link rel="stylesheet" href="../scss/main.css" />
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,9 +33,9 @@
 
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">ESTHER SMEKE</a>
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">ESTHER SMEKE</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +48,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a href="../index.html" class="nav-link">Home</a>
@@ -75,7 +78,7 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hero bg-secondary bg-gradient text-white">
+    <section class="hero bg-secondary bg-gradient text-white my-5">
       <div class="container col-xxl-8 px-4 py-5">
         <h2>Get in Touch!</h2>
 
@@ -109,7 +112,7 @@
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-outline-info" type="submit">Send</button>
+              <button class="btn btn-rounded btn-outline-white" type="submit">Send</button>
             </div>
         </div>
           </form>
