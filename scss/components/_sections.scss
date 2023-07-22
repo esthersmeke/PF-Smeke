@@ -1,0 +1,10 @@
+.section--xl {
+  padding: 2.5rem 0;
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  @media (min-width: 768px) {
+    padding: 5rem 0;
+  }
+}
