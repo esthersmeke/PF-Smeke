@@ -1,3 +1,6 @@
+@use "../variables" as theme;
+@use "./mixins";
+
 .section--xl {
   padding: 2.5rem 0;
   img {
@@ -6,5 +9,18 @@
   }
   @media (min-width: 768px) {
     padding: 5rem 0;
+  }
+}
+
+.menu {
+  @include gradient;
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
   }
 }
