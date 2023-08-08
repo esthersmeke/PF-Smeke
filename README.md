@@ -1,5 +1,5 @@
-# preentrega3-smeke
+# Entrega Final-Smeke
 
 ## CoderHouse
 
-**Proyecto para la tercera pre-entrega de Sass y SEO.**
+**Proyecto para la entrega final del curso de Desarrollo Web (Comisión 55470).**
