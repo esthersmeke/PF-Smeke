@@ -12,6 +12,21 @@
   }
 }
 
-.menu {
-  @include gradient;
+.menu,
+.hero--main {
+  @include gradient-x(theme.$purple-dark, theme.$pink);
+}
+
+.progress-bar {
+  @include gradient-x($purple-dark, $pink);
+}
+
+.carousel-inner {
+  img {
+    opacity: 0.5;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
 }

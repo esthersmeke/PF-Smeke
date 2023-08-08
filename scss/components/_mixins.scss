@@ -1,10 +1,7 @@
 @use "../variables" as theme;
 
 //Gradient Mixin
-@mixin gradient {
-  background: linear-gradient(
-    to right,
-    rgba(theme.$purple-dark, 0.95),
-    rgba(theme.$pink, 0.95)
-  );
-}
+// Sintaxis es nombre(parámetro a pasar: valor default, parámetro2 a pasar: valor default2...)
+// @mixin gradient($start-color: $gray-700, $end-color: $gray-800) {
+//   background: linear-gradient(to right, $start-color, $end-color);
+// }
